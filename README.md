@@ -1,96 +1,215 @@
-# Tiffora - Enterprise Meal Management Platform
+# 🍱 Tiffora
 
-A comprehensive, full-stack meal delivery management system built for meal service providers, kitchen operations, and delivery logistics.
+### Modern Meal Operations & Subscription Management Platform
 
-## Overview
+Tiffora is a comprehensive meal management platform designed to streamline the entire lifecycle of recurring meal services—from customer subscriptions and menu planning to kitchen operations, delivery coordination, and business administration.
 
-Tiffora is an enterprise-grade solution designed to solve the operational challenges faced by tiffin services, cloud kitchens, and meal delivery providers. It provides end-to-end management from meal planning and kitchen operations to customer subscriptions and real-time delivery tracking.
-
-## Key Features
-
-- **Subscription Management**: Handle complex customer requirements including dietary preferences, vacation pauses, and dynamic pricing
-- **Kitchen Operations**: Real-time kitchen display system with automated production planning
-- **Smart Delivery Routing**: Intelligent driver assignment and route optimization
-- **Customer Portal**: Self-service meal selection, wallet management, and delivery tracking
-- **Admin Dashboard**: Comprehensive business analytics and operational oversight
-- **Delivery Partner App**: Real-time task management and GPS tracking
-
-## Tech Stack
-
-- **Frontend**: React 18.3.1 with TypeScript
-- **Routing**: React Router v7
-- **Styling**: Tailwind CSS 4.1.12 with custom theme
-- **UI Components**: Radix UI primitives
-- **Charts & Data**: Recharts for analytics
-- **Forms**: React Hook Form with custom validation
-- **Drag & Drop**: React DnD for task management
-- **Build Tool**: Vite 6.3.5
-- **Icons**: Lucide React
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or pnpm package manager
-
-### Installation
-
-bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-
-The development server will start at `http://localhost:5173`
-
-## Project Structure
-
-src/
-├── app/
-│   ├── components/
-│   │   ├── ui/              # Reusable UI components
-│   │   └── layout/          # Page layout components
-│   ├── pages/
-│   │   ├── admin/           # Admin dashboard pages
-│   │   ├── customer/        # Customer-facing pages
-│   │   ├── delivery/        # Delivery partner pages
-│   │   ├── auth/            # Authentication pages
-│   │   └── marketing/       # Public marketing pages
-│   └── utils/               # Helper functions
-└── styles/                  # Global styles and theming
-
-
-## Development Guidelines
-
-- Follow TypeScript strict mode
-- Use functional components with React hooks
-- Maintain component-level responsibility
-- Leverage Tailwind CSS for styling
-- Keep components under 300 lines of code
-
-## Browser Support
-
-- Chrome/Edge: Latest 2 versions
-- Firefox: Latest 2 versions
-- Safari: Latest 2 versions
-
-## Performance
-
-- Lazy-loaded route components
-- Memoized expensive components
-- Optimized bundle size
-- Dark mode support with system preference detection
-
-## License
-
-Proprietary - All rights reserved
+Built as a unified operating system for meal providers, Tiffora enables organizations to manage customers, meals, production workflows, deliveries, and operational insights from a single platform.
 
 ---
 
-Built and maintained by the Tiffora Development Team
+## 🌟 What is Tiffora?
+
+Managing meal services at scale involves far more than accepting orders. Organizations must coordinate subscriptions, dietary preferences, meal preparation, kitchen workloads, delivery logistics, customer communication, and administrative oversight.
+
+Tiffora brings all of these operations together into one centralized platform, helping meal providers deliver a seamless experience while maintaining operational efficiency.
+
+Whether serving employees, students, residents, workers, patients, or community members, Tiffora provides the tools required to run modern meal operations effectively.
+
+---
+
+## 🚀 Core Features
+
+### 👥 Customer Management
+
+* Customer onboarding and profile management
+* Subscription-based meal plans
+* Dietary preference management
+* Vacation pause and resume functionality
+* Wallet and balance tracking
+* Order history and account management
+
+### 🍽️ Meal & Menu Management
+
+* Daily and weekly menu planning
+* Category-based meal organization
+* Meal descriptions and pricing
+* Subscription meal allocation
+* Dynamic menu scheduling
+
+### 👨‍🍳 Kitchen Operations
+
+* Production planning dashboard
+* Daily meal preparation tracking
+* Kitchen workflow monitoring
+* Order fulfillment management
+* Operational status visibility
+
+### 🚚 Delivery Operations
+
+* Delivery assignment management
+* Driver workflow tracking
+* Order fulfillment monitoring
+* Delivery status updates
+* Route coordination support
+
+### 📊 Administrative Dashboard
+
+* Centralized operational control
+* Customer and subscription management
+* Revenue and performance monitoring
+* Business analytics and reporting
+* System-wide configuration management
+
+---
+
+## 🏗️ Platform Roles
+
+### Customer Portal
+
+Customers can:
+
+* Browse available meals
+* Manage subscriptions
+* Track orders
+* Update preferences
+* Manage account information
+
+### Kitchen Dashboard
+
+Kitchen teams can:
+
+* View production requirements
+* Track meal preparation
+* Manage operational workflows
+* Monitor fulfillment progress
+
+### Delivery Dashboard
+
+Delivery personnel can:
+
+* View assigned deliveries
+* Update delivery status
+* Manage delivery tasks
+* Track completion progress
+
+### Administration Portal
+
+Administrators can:
+
+* Manage customers and subscriptions
+* Configure menus and pricing
+* Monitor operations
+* Access reports and analytics
+* Oversee platform activity
+
+---
+
+## 🛠 Technology Stack
+
+### Frontend
+
+* React 18
+* TypeScript
+* Vite
+* React Router
+
+### UI & Design
+
+* Tailwind CSS
+* Radix UI
+* Lucide React
+
+### Forms & Validation
+
+* React Hook Form
+
+### Analytics & Visualization
+
+* Recharts
+
+### Productivity & Interaction
+
+* React DnD
+* Modular Component Architecture
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── app/
+│   ├── components/
+│   │   ├── ui/
+│   │   └── layout/
+│   │
+│   ├── pages/
+│   │   ├── admin/
+│   │   ├── customer/
+│   │   ├── delivery/
+│   │   ├── auth/
+│   │   └── marketing/
+│   │
+│   └── utils/
+│
+└── styles/
+```
+
+---
+
+## ⚡ Key Highlights
+
+* Modern responsive interface
+* Role-based dashboards
+* Scalable architecture
+* Dark mode support
+* Mobile-friendly experience
+* Component-driven design
+* Optimized performance
+* Centralized operational management
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js 18+
+* npm or pnpm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Development server:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🎯 Vision
+
+Tiffora is designed to serve as a modern digital backbone for recurring meal services, helping organizations simplify operations, improve efficiency, and deliver a better experience for the people they serve.
+
+---
+
+---
+
+### Built with React, TypeScript, Vite, Tailwind CSS, and modern web technologies.
