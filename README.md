@@ -206,7 +206,7 @@ http://localhost:5173
 
 ## 🎯 Vision
 
-Tiffora is designed to serve as a modern digital backbone for recurring meal services, helping organizations simplify operations, improve efficiency, and deliver a better experience for the people they serve.
+Tiffora is designed to serve as a modern digital backbone for recurring meal services, helping organizations simplify operations, improve efficiency, and deliver a better experience for the people they .
 
 ---
 
