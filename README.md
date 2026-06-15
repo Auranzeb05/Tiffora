@@ -212,4 +212,4 @@ Tiffora is designed to serve as a modern digital backbone for recurring meal ser
 
 ---
 
-### Built with React, TypeScript, Vite, Tailwind CSS, and modern web technologies.
+### Built with React, 
